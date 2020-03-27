@@ -10,10 +10,10 @@ export class Movie extends Component {
     }
 
     render () {
-        const { title, year, poster} = this.props
+        const { id, title, year, poster} = this.props
         
         return (
-            <a href={`id=${id}`} className="card">
+            <a href={`?id=${id}`} className="card">
                 <div className="card-image">
                     <figure className="image">
                     <img
